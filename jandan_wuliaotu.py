@@ -35,6 +35,7 @@ if not os.path.exists('wuliaotu'):
     os.mkdir('wuliaotu')
 os.chdir('wuliaotu')
 
+
 for i in range(len(img_links)):
     filename = img_links[i].split('/')[-1]
     urlretrieve(img_links[i], filename)
